@@ -9,7 +9,10 @@ This is part of the first project!
 
 <h2>Environments and Technologies Used</h2>
 
-  - Docker
+  - Terraform
+  - Amazon Web Services
+  - Github Codespaces
+  - S3
   
 
 
@@ -25,17 +28,12 @@ This is part of the first project!
 
 <h2></h2>
 
-
-
-
-
-***2. Repo and API configuration***
-
-
 ![image](/assets/image1.png)
 
 
-***(Optional): Local AWS CLI Setup***
+
+***1. Repo configuration***
+
 
 NOTE: Keep in mind this is for a Linux environment, check the AWS documentation to install it in your supported OS.
 
@@ -50,6 +48,7 @@ We then do `AWS configure` and enter our access and secret key along with the re
 ```
 aws sts get-caller-identity
 ```
+
 
 ***3. Update .env file and specify Amazon MediaConvert Endpoint***
 
