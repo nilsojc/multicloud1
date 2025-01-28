@@ -2,9 +2,11 @@
   <img src="assets/diagram.png" 
 </p>
   
-## ☁️ MultiCloud, DevOps & AI Challenge - Day 1  ☁️
+## ☁️ MultiCloud, DevOps & AI Challenge - Day 1 - Automating AWS provisioning using Terraform  ☁️
 
-This is part of the first project!
+This is part of the first project of the challenge/bootcamp! 
+
+In this project we will be setting up our whole set of project for this challenge utilizing terraform to create a S3 bucket and create a DynamoDB table which will be the basis and start of our project.
 
 
 <h2>Environments and Technologies Used</h2>
@@ -13,6 +15,7 @@ This is part of the first project!
   - Amazon Web Services
   - Github Codespaces
   - S3
+  - DynamoDB
   
 
 
@@ -49,23 +52,31 @@ We then do `AWS configure` and enter our access and secret key along with the re
 aws sts get-caller-identity
 ```
 
+We will then install terraform CLI:
 
-***3. Update .env file and specify Amazon MediaConvert Endpoint***
-
-
-***4.  Build and Run the container Locally***
-
-
-
-***6. Setting up Terraform along with AWS files***
+```
+sudo wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+sudo apt update && sudo apt install terraform
+```
 
 
+***3. ***
 
 
-***7. Run Project with Terraform***
+***4. ***
 
 
-***8. Cleanup***
+
+***6. ***
+
+
+
+
+***7. ***
+
+
+***8. ***
 
 
 <h2>Conclusion</h2>
