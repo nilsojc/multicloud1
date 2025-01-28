@@ -61,25 +61,48 @@ sudo apt update && sudo apt install terraform
 ```
 
 
-***3. ***
+***2. Terraform Configuration***
 
+In this step we will make sure that we have terraform set up.
 
-***4. ***
+First, we will create a terraform folder and point to it directly:
 
+```
+mkdir terraform-project && cd terraform-project
+```
 
+Then we will initialize the terraform plaform with the main.tf file. Inside it, is the documentation to create a S3 bucket
 
-***6. ***
+```
+terraform init
+```
 
+Next, we will review the plan:
 
+```
+terraform plan
+```
 
+Finally, we will apply it.
 
-***7. ***
+```
+terraform apply
+```
 
+We will verify our bucket and dynamoDB table was created successfully with the AWS CLI command:
 
-***8. ***
+```
+aws s3 ls
 
+```
+
+***3. Final Result***
+
+This will be the S3 bucket and DynamoDB table created with Terraform, as shown in the console:
+
+![image](/assets/image1.png)
 
 <h2>Conclusion</h2>
 
-In this project, I learned how to 
+In this project, I learned how to leverage terraform to automate creation of AWS services in preparation with the other projects in the multicloud bootcamp!
 
