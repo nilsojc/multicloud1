@@ -95,6 +95,6 @@ This will be the S3 bucket and DynamoDB table created with Terraform, as shown i
 ![image](/assets/image2.png)
 
 <h2>Conclusion</h2>
-.
+
 In this project, I learned how to leverage terraform to automate creation of AWS services in preparation with the other projects in the multicloud bootcamp!
 
