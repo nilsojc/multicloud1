@@ -73,6 +73,3 @@ aws sts get-caller-identity
 
 In this project, I learned how to 
 
-<h2>Conclusion</h2>
-
-In this project, I learned how to 
