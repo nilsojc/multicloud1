@@ -27,7 +27,7 @@ This is part of the first project!
 
 
 
-```
+
 
 ***2. Repo and API configuration***
 
@@ -39,19 +39,19 @@ This is part of the first project!
 
 NOTE: Keep in mind this is for a Linux environment, check the AWS documentation to install it in your supported OS.
 
-   ```
+
    curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
-```
+
+
 We then do `AWS configure` and enter our access and secret key along with the region. Output format set to JSON. With this command we will double check that our credentials are put in place for CLI:
 
 ```
 aws sts get-caller-identity
 ```
 
-
-***3. Update .env file and specify Amazon MediaConvert Endpoint ***
+***3. Update .env file and specify Amazon MediaConvert Endpoint***
 
 
 ***4.  Build and Run the container Locally***
