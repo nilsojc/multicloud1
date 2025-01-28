@@ -17,9 +17,6 @@ In this project we will be setting up our whole set of project for this challeng
   - S3
   - DynamoDB
   
-
-
-
   
 <h2>Features</h2>  
 
@@ -28,12 +25,6 @@ In this project we will be setting up our whole set of project for this challeng
 
 
 <h2>Step by Step Instructions</h2>
-
-<h2></h2>
-
-![image](/assets/image1.png)
-
-
 
 ***1. Repo configuration***
 
@@ -101,8 +92,9 @@ aws s3 ls
 This will be the S3 bucket and DynamoDB table created with Terraform, as shown in the console:
 
 ![image](/assets/image1.png)
+![image](/assets/image2.png)
 
 <h2>Conclusion</h2>
-
+.
 In this project, I learned how to leverage terraform to automate creation of AWS services in preparation with the other projects in the multicloud bootcamp!
 
