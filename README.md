@@ -20,7 +20,7 @@ In this project we will be setting up our whole set of project for this challeng
   
 <h2>Features</h2>  
 
-
+- In here we learn how to deploy AWS services using Terraform in a automated and efficient way.
 
 
 
